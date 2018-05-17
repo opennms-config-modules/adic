@@ -1,8 +1,8 @@
-# Adic
+= Adic
 
 OpenNMS configuration for Adic devices.
 
-## Installation
+== Installation
 
 .Download and install from GitHub
 [source, bash]
@@ -12,7 +12,8 @@ cd ${HOME}/opennms-config-workspace
 git clone https://github.com/opennms-config-modules/adic.git
 ----
 
-### Events
+=== Events
+
 .Install Adic events
 [source, bash]
 ----
