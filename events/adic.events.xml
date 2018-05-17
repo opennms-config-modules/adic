@@ -23,7 +23,8 @@
             globalStatus&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;
             unknown(1) ok(2) degraded(3) failure(4)&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
             &lt;b&gt;prevGlobalStatus&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#3]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;
-            unknown(1) ok(2) degraded(3) failure(4)&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            unknown(1) ok(2) degraded(3) failure(4)&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
+        </descr>
         <logmsg dest='logndisplay'>
             &lt;p&gt;ADIC StatusChange trap received displayName=%parm[#1]% globalStatus=%parm[#2]%
             prevGlobalStatus=%parm[#3]%&lt;/p&gt;
@@ -53,7 +54,8 @@
             %parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;
             &lt;td&gt;&lt;b&gt;moverDoorState&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;
             &lt;td&gt;&lt;p;&gt;unknown(1) open(2) closed(3) locked(4)&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;
-            &lt;/table&gt;</descr>
+            &lt;/table&gt;
+        </descr>
         <logmsg dest='logndisplay'>
             &lt;p&gt;ADIC DoorStateChange trap received displayName=%parm[#1]% moverDoorState=%parm[#2]%&lt;/p&gt;
         </logmsg>
@@ -78,7 +80,8 @@
         <uei>http://uei.opennms.org/vendor/ADIC/traps/mailboxStateChange</uei>
         <event-label>ADICLIBMIB-v2 defined trap event: mailboxStateChange</event-label>
         <descr>&lt;p&gt;The %param[#1]% mailbox state has changed to %param[#2]%.&lt;/p&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;displayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;moverMailboxState&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;unknown(1)
-            open(2) closed(3) locked(4)&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            open(2) closed(3) locked(4)&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
+        </descr>
         <logmsg dest='logndisplay'>
             &lt;p&gt;ADIC MailboxStateChange trap received displayName=%parm[#1]% moverMailboxState=%parm[#2]%&lt;/p&gt;
         </logmsg>
@@ -103,7 +106,8 @@
         <uei>http://uei.opennms.org/vendor/ADIC/traps/startup</uei>
         <event-label>ADICLIBMIB-v2 defined trap event: startup</event-label>
         <descr>&lt;p&gt;The %param[#1]% device has started. The shutdown state was %param[#2]%.&lt;/p&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;displayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;startupState&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;other(1)
-            unknown(2) normal(3) powerfail(4) errorreboot(5)&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            unknown(2) normal(3) powerfail(4) errorreboot(5)&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
+        </descr>
         <logmsg dest='logndisplay'>
             &lt;p&gt;ADIC Startup trap received displayName=%parm[#1]% startupState=%parm[#2]%&lt;/p&gt;
         </logmsg>
@@ -128,7 +132,8 @@
         <uei>http://uei.opennms.org/vendor/ADIC/traps/shutdown</uei>
         <event-label>ADICLIBMIB-v2 defined trap event: shutdown</event-label>
         <descr>&lt;p&gt;The %param[#1]% device has shut down. The shutdown state is %param[#2]%.&lt;/p&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;displayName&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#1]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;shutdownState&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[#2]%&lt;/td&gt;&lt;td&gt;&lt;p;&gt;other(1)
-            unknown(2) normal(3) powerfail(4) errorreboot(5)&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;</descr>
+            unknown(2) normal(3) powerfail(4) errorreboot(5)&lt;/p&gt;&lt;/td;&gt;&lt;/tr&gt;&lt;/table&gt;
+        </descr>
         <logmsg dest='logndisplay'>
             &lt;p&gt;ADIC Shutdown trap received displayName=%parm[#1]% shutdownState=%parm[#2]%&lt;/p&gt;
         </logmsg>
